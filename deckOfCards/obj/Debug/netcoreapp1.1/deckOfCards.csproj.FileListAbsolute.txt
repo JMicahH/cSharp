@@ -1,0 +1,8 @@
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/deckOfCards/bin/Debug/netcoreapp1.1/deckOfCards.deps.json
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/deckOfCards/bin/Debug/netcoreapp1.1/deckOfCards.runtimeconfig.json
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/deckOfCards/bin/Debug/netcoreapp1.1/deckOfCards.runtimeconfig.dev.json
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/deckOfCards/bin/Debug/netcoreapp1.1/deckOfCards.dll
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/deckOfCards/bin/Debug/netcoreapp1.1/deckOfCards.pdb
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/deckOfCards/obj/Debug/netcoreapp1.1/deckOfCards.AssemblyInfo.cs
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/deckOfCards/obj/Debug/netcoreapp1.1/deckOfCards.dll
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/deckOfCards/obj/Debug/netcoreapp1.1/deckOfCards.pdb
