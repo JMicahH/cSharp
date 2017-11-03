@@ -1,0 +1,10 @@
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/callingCard/bin/Debug/netcoreapp1.1/callingCard.deps.json
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/callingCard/bin/Debug/netcoreapp1.1/callingCard.runtimeconfig.json
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/callingCard/bin/Debug/netcoreapp1.1/callingCard.runtimeconfig.dev.json
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/callingCard/bin/Debug/netcoreapp1.1/callingCard.dll
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/callingCard/bin/Debug/netcoreapp1.1/callingCard.pdb
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/callingCard/obj/Debug/netcoreapp1.1/callingCard.AssemblyInfo.cs
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/callingCard/obj/Debug/netcoreapp1.1/callingCard.dll
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/callingCard/obj/Debug/netcoreapp1.1/callingCard.pdb
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/callingCard/obj/Debug/netcoreapp1.1/callingCard.csproj.CoreCompileInputs.cache
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/callingCard/obj/Debug/netcoreapp1.1/callingCard.AssemblyInfoInputs.cache
