@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Time Display in C#</title>
+</head>
+<style>
+body{
+    margin: 20% 0px;
+    text-align: center;
+}
+
+#displaybox{
+    margin: auto;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Helvetica, Arial, sans-serif;
+    border: 1px solid #17075f;
+    vertical-align: middle;
+}
+
+
+</style>
+
+<body>
+<h3>The current time and date is:</h3>
+<div id='displaybox'>
+    @{
+        DateTime CurrentTime = DateTime.Now;
+        string displayDate = CurrentTime.ToString("MMM dd, yyyy");
+        string displayTime = CurrentTime.ToString("h:mm tt");
+        <h1>@displayDate</h1>
+        <h1>@displayTime</h1>
+    }
+
+</div>
+
+
+    
+</body>
+</html>
