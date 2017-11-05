@@ -1,0 +1,10 @@
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/portoflio/bin/Debug/netcoreapp2.0/portoflio.deps.json
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/portoflio/bin/Debug/netcoreapp2.0/portoflio.runtimeconfig.json
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/portoflio/bin/Debug/netcoreapp2.0/portoflio.runtimeconfig.dev.json
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/portoflio/bin/Debug/netcoreapp2.0/portoflio.dll
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/portoflio/bin/Debug/netcoreapp2.0/portoflio.pdb
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/portoflio/obj/Debug/netcoreapp2.0/portoflio.csproj.CoreCompileInputs.cache
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/portoflio/obj/Debug/netcoreapp2.0/portoflio.AssemblyInfoInputs.cache
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/portoflio/obj/Debug/netcoreapp2.0/portoflio.AssemblyInfo.cs
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/portoflio/obj/Debug/netcoreapp2.0/portoflio.dll
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/portoflio/obj/Debug/netcoreapp2.0/portoflio.pdb
