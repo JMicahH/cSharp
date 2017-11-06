@@ -1,0 +1,10 @@
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/dojosurvey/bin/Debug/netcoreapp2.0/dojosurvey.deps.json
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/dojosurvey/bin/Debug/netcoreapp2.0/dojosurvey.runtimeconfig.json
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/dojosurvey/bin/Debug/netcoreapp2.0/dojosurvey.runtimeconfig.dev.json
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/dojosurvey/bin/Debug/netcoreapp2.0/dojosurvey.dll
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/dojosurvey/bin/Debug/netcoreapp2.0/dojosurvey.pdb
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/dojosurvey/obj/Debug/netcoreapp2.0/dojosurvey.csproj.CoreCompileInputs.cache
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/dojosurvey/obj/Debug/netcoreapp2.0/dojosurvey.AssemblyInfoInputs.cache
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/dojosurvey/obj/Debug/netcoreapp2.0/dojosurvey.AssemblyInfo.cs
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/dojosurvey/obj/Debug/netcoreapp2.0/dojosurvey.dll
+/Users/johnnyfive/Desktop/DojoAssignments/cSharp/dojosurvey/obj/Debug/netcoreapp2.0/dojosurvey.pdb

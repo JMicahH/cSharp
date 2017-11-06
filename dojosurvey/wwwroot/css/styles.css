@@ -1,0 +1,24 @@
+#box {
+    margin: 20px auto;
+    width: 400px;
+    height: 400px;
+    border: 1px solid gray;
+    padding: 40px;
+}
+
+#formleft,
+#formright {
+    display: inline-block;
+    width: 49%;
+}
+
+textarea {
+    width: 370px;
+    height: 200px;
+}
+
+input,
+select {
+    width: 100%;
+    margin: 5px;
+}
