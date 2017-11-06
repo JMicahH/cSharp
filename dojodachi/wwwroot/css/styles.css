@@ -1,0 +1,30 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center !important;
+}
+
+li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    -webkit-padding-start: 0px;
+}
+
+#mycontainer{
+    margin: 12% auto;
+}
+
+#dachibox{
+    margin: 25px auto;
+    width: 400px;
+    height: auto;
+    text-align: center;
+    border: 1px solid #999;
+    box-shadow: 0px 3px 6px #999;
+}
