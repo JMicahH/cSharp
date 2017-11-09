@@ -1,0 +1,61 @@
+@model loginReg.Models.User
+
+
+@{
+    ViewData["Title"] = "Login and Registration";
+}
+
+<div id="login" style="width: 50%;">
+<form asp-controller="Home" asp-action="login" method="post">
+    
+    <span asp-validation-for="Email"></span>
+    <label asp-for="Email"></label>
+    <input asp-for="Email" class="form-control"/>
+
+    <span asp-validation-for="Password"></span>
+    <label asp-for="Password"></label>
+    <input asp-for="Password" class="form-control"/>
+
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
+@{
+    if(@ViewBag.loginErrors != null){
+        <p>@ViewBag.loginErrors</p>
+    }
+}
+
+</div>
+
+<hr>
+
+
+<div id="register" style="width: 50%;">
+<div asp-validation-summary="All"></div>
+
+<form asp-controller="Home" asp-action="register" method="post">
+    
+    <span asp-validation-for="FirstName"></span>
+    <label asp-for="FirstName"></label>
+    <input asp-for="FirstName" class="form-control"/>
+    
+    <span asp-validation-for="LastName"></span>
+    <label asp-for="LastName"></label>
+    <input asp-for="LastName" class="form-control"/>
+    
+    <span asp-validation-for="Email"></span>
+    <label asp-for="Email"></label>
+    <input asp-for="Email" class="form-control"/>
+    
+    <span asp-validation-for="Password"></span>
+    <label asp-for="Password"></label>
+    <input asp-for="Password" class="form-control"/>    
+    
+    <button type="submit" class="btn btn-primary">Register New User</button>
+</form>
+
+@{
+    if(@ViewBag.registerErrors != null){
+        <p>@ViewBag.registerErrors</p>
+    }
+}
+</div>

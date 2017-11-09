@@ -1,0 +1,31 @@
+
+
+@{
+    ViewData["Title"] = "Login and Registration: Success";
+}
+
+        <h1>You are now logged in</h1>
+
+@{
+    if(@ViewBag.userData != null){
+        foreach(var user in @ViewBag.userData){
+            foreach(var kvp in user){
+                if(@kvp.Key != "password"){
+                    <h4>@kvp.Value</h4>
+                }
+            }
+        }
+    }
+
+    else{
+
+        <h4>@ViewBag.FirstName</h4>
+        <h4>@ViewBag.LastName</h4>
+        <h4>@ViewBag.Email</h4>
+    }
+
+}
+
+
+
+<a href="logout">Logout</a>
