@@ -1,0 +1,11 @@
+/*Write all of your CSS here*/
+
+.messageArea {
+    margin: 55px 0px;
+}
+
+
+.commentArea{
+    margin: 10px 55px;
+    color: #999;
+}
