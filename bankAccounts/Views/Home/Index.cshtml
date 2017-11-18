@@ -1,0 +1,60 @@
+@model bankAccounts.Models.LoginRegViewModel
+@using bankAccounts.Models
+
+
+@{
+    ViewData["Title"] = "Login and Registration";
+}
+<div id="loginScreen">
+<div id="login" style="width: 50%; margin-top: 25px;">
+<form asp-controller="Home" asp-action="login" method="post">
+    
+    <span asp-validation-for="loginVM.Email"></span>
+    <input asp-for="loginVM.Email" class="form-control" placeholder="Email"/>
+
+    <span asp-validation-for="loginVM.Password"></span>
+    <input asp-for="loginVM.Password" class="form-control" placeholder="Password"/>
+@{
+    if(@ViewBag.loginErrors != null){
+        <p class="error">@ViewBag.loginErrors</p>
+    }
+}
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
+
+
+</div>
+
+<hr>
+
+
+<div id="register" style="width: 50%;">
+<!-- <div asp-validation-summary="All"  class="error"></div> -->
+
+<form asp-controller="Home" asp-action="register" method="post">
+    
+    <input asp-for="registerVM.FirstName" class="form-control" placeholder="First Name"/>
+    <span asp-validation-for="registerVM.FirstName" class="error"></span>
+    
+    <input asp-for="registerVM.LastName" class="form-control" placeholder="Last Name"/>
+    <span asp-validation-for="registerVM.LastName" class="error"></span>
+    
+    <input asp-for="registerVM.Email" class="form-control" placeholder="Email"/>
+    <span asp-validation-for="registerVM.Email" class="error"></span>
+    
+    <input asp-for="registerVM.Password" class="form-control" placeholder="Password"/>   
+    <span asp-validation-for="registerVM.Password" class="error"></span>
+
+    <input asp-for="registerVM.PasswordConfirmation" class="form-control" placeholder="Password Confirmation"/>    
+    <span asp-validation-for="registerVM.PasswordConfirmation" class="error"></span>
+    @{
+    if(@ViewBag.emailExistsError != null){
+        <p class="error">@ViewBag.emailExistsError</p>
+    }
+}
+    <button type="submit" class="btn btn-primary">Register New User</button>
+</form>
+
+
+</div>
+</div>

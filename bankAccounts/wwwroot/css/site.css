@@ -1,0 +1,38 @@
+/*Write all of your CSS here*/
+
+.error {
+    color: red !important;
+    font-size: 11pt !important;
+    font-weight: bold !important;
+}
+
+#loginScreen input {
+    margin-top: 10px;
+}
+
+.balanceArea {
+    line-height: 40px;
+    margin-top: 12px;
+    display: inline-block;
+    text-align: right;
+}
+
+#balanceWindow {
+    width: auto;
+    border: 1px solid #999;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+#logout{
+    font-size: 10pt;
+    color: red;
+}
+
+form#transaction{
+    padding-left: 15px;
+}
+
+table{
+    margin-top: 50px;
+}

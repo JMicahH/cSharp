@@ -1,0 +1,15 @@
+@model bankAccounts.Models.Transaction
+@using bankAccounts.Models
+
+
+
+<form asp-controller="Home" asp-action="transact" method="post">
+    
+    <input asp-for="Email" class="form-control"/>
+
+    <span asp-validation-for="Password"></span>
+    <label asp-for="Password"></label>
+    <input asp-for="Password" class="form-control"/>
+
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
