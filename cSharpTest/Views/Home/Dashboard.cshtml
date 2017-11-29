@@ -1,0 +1,77 @@
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col" ><span style="font-size: 38px;">Welcome to the Dojo Activity Center, @ViewBag.username</span></div>
+
+        
+        <div class="col logoutArea"><a id="logout" href="/logout">Logout</a></div>
+    </div>
+</div>
+<hr>
+<div class="container">
+    <div class="row">
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Activity</th>
+      <th scope="col">Date and Time</th>
+      <th scope="col">Duration</th>
+      <th scope="col">Event Coordinator</th>
+      <th scope="col">Participants</th>
+      <th scope="col">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+
+@foreach(var activity in @ViewBag.Activities)
+    {
+        <tr>
+            <td><a href="/viewActivity/@activity.id"> @activity.Title</a></td>
+            <td>@activity.Date.ToString("MMM dd yyyy") &commat; @activity.Time.ToString("h:mm tt")</td>
+            <td>@activity.Duration @activity.DurationScope</td>
+            <td>@activity.OwnerName</td>
+            <td>@activity.Participants.Count</td>
+
+            @if(@activity.OwnerId == @ViewBag.userId)
+            {
+                <td><form asp-controller="Home" asp-action="deleteActivity" asp-route-id="@activity.id" method="post"><button class="btn btn-danger">Delete Activity</button></form></td>
+            }
+            else
+            {
+                bool attending = true;
+                @foreach (var participant in @activity.Participants)
+                {
+                    if (participant.UserId == @ViewBag.userId)
+                    {
+                        <td><form asp-controller="Home" asp-action="unAttend" asp-route-id="@participant.UserId" method="post">
+                        <button class="btn btn-warning">Un-Attend</button>
+                        </form></td>
+                        attending = false;
+                        break;
+                    }
+                }
+                @if (attending)
+                {
+                    <td><form asp-controller="Home" asp-action="attend" asp-route-id="@activity.id" method="post">
+                        <button class="btn btn-success">Attend</button>
+                    </form></td>
+                }
+            }
+
+        </tr>
+    }
+
+
+
+
+
+</tbody>
+</table>
+
+<button class="btn btn-success"><a href="/planActivity" style="color: white;">Create Activity</a></button>
+
+
+</div>

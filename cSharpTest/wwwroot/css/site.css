@@ -1,0 +1,29 @@
+/*Write all of your CSS here*/
+
+.error {
+    color: red !important;
+    font-size: 11pt !important;
+    font-weight: bold !important;
+    display: block;
+}
+
+#loginScreen input {
+    margin-top: 10px;
+}
+
+#logout{
+    font-size: 10pt;
+    color: red;
+}
+
+table{
+    margin-top: 50px;
+}
+
+label{
+    margin-top: 12px;
+}
+
+#create{
+    width: 50%;
+}

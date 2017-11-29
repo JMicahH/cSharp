@@ -1,0 +1,54 @@
+@model cSharpTest.Models.ActivityViewModel
+@using cSharpTest.Models
+
+<div class="container">
+    <div class="row">
+        <div class="col" ><span style="font-size: 38px;">Plan Your Activity</span></div>
+
+        
+        <div class="col logoutArea"><a id="dashboard" href="dashboard/@ViewBag.userId">Dashboard</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a id="logout" href="/logout">Logout</a></div>
+    </div>
+</div>
+<hr>
+
+<div id="create">
+<!-- <div asp-validation-summary="All"  class="error"></div> -->
+
+<form asp-controller="Home" asp-action="createActivity" method="post">
+    
+    <label for="Title">Title: </label>
+    <input asp-for="Title" class="form-control" placeholder="Title"/>
+    <span asp-validation-for="Title" class="error"></span>
+    
+    <label for="Time">Time: </label>
+    <input asp-for="Time" type="time" class="form-control" placeholder="Time" step="300"/>
+    <span asp-validation-for="Time" class="error"></span>
+    
+    <label for="Date">Date: </label>
+    <input asp-for="Date" type="date" class="form-control" placeholder="Date"/>
+    <span asp-validation-for="Date" class="error"></span>
+    
+    <label for="Duration">Duration: </label>
+    <input asp-for="Duration" type="number" class="form-control" placeholder="Duration"/>
+    <select name="durationScope">
+        <option value="Minutes">Minutes</option>
+        <option value="Hours">Hours</option>
+        <option value="Days">Days</option>
+    </select> 
+    <span asp-validation-for="Duration" class="error"></span>
+
+    <label for="Description">Description: </label>
+    <textarea asp-for="Desc" class="form-control" placeholder="Desc"/></textarea>
+    <span asp-validation-for="Desc" class="error"></span>
+
+
+    @{
+    if(@ViewBag.activityError != null){
+        <p class="error">@ViewBag.activityError</p>
+    }
+}
+    <button type="submit" class="btn btn-primary">Create New Activity</button>
+</form>
+
+
+</div>
